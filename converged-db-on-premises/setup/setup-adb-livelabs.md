@@ -23,7 +23,7 @@ Verify for ATP Instance created by LiveLabs Green Button by selecting the alloca
 
 ![](./images/checkforatp.png " ")
 
-There are multiple ways to create an Oracle Wallet for ADB.  We will be using Oracle Cloud Shell as this is not the focus of this workshop.  To learn more about Oracle Wallets and use the interface to create one, please refer to the lab in this workshop: [Analyzing Your Data with ADB - Lab 6](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=553)
+There are multiple ways to create an Oracle Wallet for ADB.  We will be using Oracle Cloud Shell as this is not the focus of this workshop.  To learn more about Oracle Wallets and use the interface to create one, please refer to the lab in this workshop: [Analyzing Your Data with ADB - Lab 6](https://livelabs.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=553)
 
 1.  Before starting this section make sure you have exited out of your compute instance and are back in your cloudshell home.  
    
@@ -64,7 +64,7 @@ There are multiple ways to create an Oracle Wallet for ADB.  We will be using Or
       ![](./images/converged-wallet.png " ")
 
 ## Task 2: Create Auth Token
-There are multiple ways to create an Oracle Wallet for ADB.  We will be using Oracle Cloud Shell as this is not the focus of this workshop.  To learn more about Oracle Wallets and use the interface to create one, please refer to the lab in this workshop: [Analyzing Your Data with ADB - Lab 6](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=553)
+There are multiple ways to create an Oracle Wallet for ADB.  We will be using Oracle Cloud Shell as this is not the focus of this workshop.  To learn more about Oracle Wallets and use the interface to create one, please refer to the lab in this workshop: [Analyzing Your Data with ADB - Lab 6](https://livelabs.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=553)
 
 1.  Click on the person icon in the upper right corner.
 2.  Select **User Settings**
@@ -151,7 +151,7 @@ There are multiple ways to create an Oracle Wallet for ADB.  We will be using Or
       <copy>
       cd $HOME
       pwd
-      wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/ew-K0IQrTXaBF3OeT8NT-q8fMsqFZapho_rpbDelTM4dvibgVxOv0bZRyxk3gc5l/n/c4u04/b/livelabsfiles/o/developer-library/load-atp.sh
+      wget https://c4u04.objectstorage.us-ashburn-1.oci.customer-oci.com/p/EcTjWk2IuZPZeNnD_fYMcgUhdNDIDA6rt9gaFj_WZMiL7VvxPBNMY60837hu5hga/n/c4u04/b/livelabsfiles/o/developer-library/load-atp.sh
       </copy>
       ````
 
@@ -195,7 +195,7 @@ There are multiple ways to create an Oracle Wallet for ADB.  We will be using Or
 
       ````
       <copy>cd /u01/script
-      wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/ew-K0IQrTXaBF3OeT8NT-q8fMsqFZapho_rpbDelTM4dvibgVxOv0bZRyxk3gc5l/n/c4u04/b/livelabsfiles/o/developer-library/env_script_setup_atp.sh
+      wget https://c4u04.objectstorage.us-ashburn-1.oci.customer-oci.com/p/EcTjWk2IuZPZeNnD_fYMcgUhdNDIDA6rt9gaFj_WZMiL7VvxPBNMY60837hu5hga/n/c4u04/b/livelabsfiles/o/developer-library/env_script_setup_atp.sh
       chmod +x env_script_setup_atp.sh
       ./env_script_setup_atp.sh</copy>
       ````
